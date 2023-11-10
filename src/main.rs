@@ -10,7 +10,7 @@ pub fn add(a: i32, b: i32) -> i32 {
 // example.
 #[allow(dead_code)]
 fn not_so_bad_add(a: i32, b: i32) -> i32 {
-    a - b
+    a + b
 }
 
 #[cfg(test)]
